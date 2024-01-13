@@ -8,12 +8,14 @@ function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
   const [navBar, setNavBar] = useState(false);
 
+  //for burger
   const location = useLocation();
 
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
 
+  //for fixed navbar on scroll
   const handleScroll = () => {
     setNavBar(window.scrollY >= 80);
   };
@@ -26,6 +28,7 @@ function Navbar() {
       id={expandNavbar ? "open" : "close"}
     >
       <div className="toggleButton">
+        <div className="logo">RM</div>
         <button onClick={() => setExpandNavbar((prev) => !prev)}>
           <ReorderIcon />
         </button>

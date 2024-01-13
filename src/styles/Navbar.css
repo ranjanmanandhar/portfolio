@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Teko-SemiBold';
+  src: local('Teko-SemiBold'),url('../assets/fonts/Teko-SemiBold.ttf') format('truetype');
+}
+
 .navbar {
   height: 10vh;
   display: flex;
@@ -21,14 +26,12 @@ li {
 }
 
 .logo {
- font: ;
- 
+  font-family: 'Teko-SemiBold',sans-serif;
+  font-size: 2rem;
 }
 
 .links {
   gap: 2rem;
-  
-  
 }
 
 .navbar a {
@@ -57,7 +60,7 @@ li {
 }
 .toggleButton button {
   margin-right: 20px;
-  background-color: transparent;
+  background-color: black;
   border: none;
   color: white;
   cursor: pointer;
@@ -89,6 +92,10 @@ li {
     display: flex;
   }
   #close a {
+    display: none;
+  }
+
+  .logo {
     display: none;
   }
 }
