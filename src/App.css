@@ -1,13 +1,29 @@
+@font-face {
+  font-family: 'Teko';
+  src: local('Teko'),url('./assets/fonts/Teko.ttf') format('truetype');
+}
+
 .App {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Teko', sans-serif;
+  background-color: white;
 }
 
 body {
   padding: 0;
   margin: 0;
+  font-family: sa;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* TRANSITION */
+a, .btn {
+  transition: all 300ms ease;
+}
+

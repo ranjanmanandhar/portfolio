@@ -2,19 +2,19 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #333;
   }
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
+    background-color: white;
+    color: #000000;
   }
   
   .about h2 {
@@ -31,7 +31,7 @@
   .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .skills {
