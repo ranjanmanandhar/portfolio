@@ -28,16 +28,32 @@ function Navbar() {
       id={expandNavbar ? "open" : "close"}
     >
       <div className="toggleButton">
-        <div className="logo">RM</div>
+        <div className="sm-logo">
+          <ul>
+            <li>
+              <Link to="/" smooth={true} offset={-100} duration={500}>
+                RM
+              </Link>
+            </li>
+          </ul>
+        </div>
         <button onClick={() => setExpandNavbar((prev) => !prev)}>
           <ReorderIcon />
         </button>
       </div>
-      <div className="logo">Ranjan Manandhar</div>
+      <div className="logo">
+        <ul>
+          <li>
+            <Link to="/" smooth={true} offset={-100} duration={500}>
+              Ranjan Manandhar
+            </Link>
+          </li>
+        </ul>
+      </div>
       <div className="links">
         <ul>
           <li>
-            <Link to="/" smooth={true} offset={40} duration={500}>
+            <Link to="/" smooth={true} offset={-100} duration={500}>
               About
             </Link>
           </li>

@@ -71,6 +71,7 @@ li {
 }
 
 #open .links {
+  display: flex ;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 100px;
@@ -90,18 +91,35 @@ li {
 @media only screen and (max-width: 600px) {
   .toggleButton {
     display: flex;
+    justify-content: space-between;
   }
-  #close a {
+
+  .sm-logo {
+    margin-left: 20px;
+    font-size: 2rem;
+    font-family: 'Teko-SemiBold',sans-serif;
+  }
+
+  #close .links a {
     display: none;
   }
 
   .logo {
     display: none;
   }
+
+  .links {
+    display: none;
+  }
+  
 }
 
 @media only screen and (min-width: 600px) {
   .toggleButton {
+    display: none;
+  }
+
+  .sm-logo {
     display: none;
   }
 
@@ -114,6 +132,7 @@ li {
   }
 
   #open .links {
+    display: flex;
     flex-direction: row;
   }
 }
