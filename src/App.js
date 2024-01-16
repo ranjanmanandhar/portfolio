@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Experience from "./pages/Experience";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
         </Routes>
-        {/* <Footer /> */}
+        <Contact />
+        <Footer />
       </Router>
     </div>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
 import MenuLinks from "./MenuLinks";
-import { Facebook, GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 
 function Footer() {
   return (

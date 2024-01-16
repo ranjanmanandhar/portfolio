@@ -1,0 +1,22 @@
+.contact  {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+} 
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .info-container p {
+    font-size: larger;
+  }
+
+  .contact .upper-container {
+    width: 500px;
+  }
+
