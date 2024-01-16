@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7251b43c.css",
-    "main.js": "/portfolio/static/js/main.6eaa73a6.js",
+    "main.css": "/portfolio/static/css/main.8d347c9b.css",
+    "main.js": "/portfolio/static/js/main.936131bd.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Teko-SemiBold.ttf": "/portfolio/static/media/Teko-SemiBold.a6326446d081c2093509.ttf",
     "static/media/Teko.ttf": "/portfolio/static/media/Teko.7f7d02a7f2625257e714.ttf",
@@ -12,12 +12,12 @@
     "static/media/proj1.jpg": "/portfolio/static/media/proj1.3fb0bdc7583872ea12b3.jpg",
     "static/media/proj4.webp": "/portfolio/static/media/proj4.21aa3100d2e1859f6029.webp",
     "index.html": "/portfolio/index.html",
-    "main.7251b43c.css.map": "/portfolio/static/css/main.7251b43c.css.map",
-    "main.6eaa73a6.js.map": "/portfolio/static/js/main.6eaa73a6.js.map",
+    "main.8d347c9b.css.map": "/portfolio/static/css/main.8d347c9b.css.map",
+    "main.936131bd.js.map": "/portfolio/static/js/main.936131bd.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7251b43c.css",
-    "static/js/main.6eaa73a6.js"
+    "static/css/main.8d347c9b.css",
+    "static/js/main.936131bd.js"
   ]
 }
