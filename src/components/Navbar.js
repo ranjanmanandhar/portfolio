@@ -25,10 +25,7 @@ function Navbar() {
 
   return (
     <>
-      <div
-        className={navBar ? "navbar active" : "navbar"}
-        id={expandNavbar ? "open" : "close"}
-      >
+      <div className={navBar ? "navbar active" : "navbar"}>
         <div className="toggleButton">
           <div className="sm-logo">
             <ul>
@@ -56,8 +53,10 @@ function Navbar() {
           <MenuLinks />
         </div>
       </div>
-      <div className="menu-links">
-        <MenuLinks />
+      <div id={expandNavbar ? "open" : "close"}>
+        <div className="menu-links">
+          <MenuLinks />
+        </div>
       </div>
     </>
   );

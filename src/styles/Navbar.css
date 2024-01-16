@@ -15,7 +15,13 @@
   top: 0;
 }
 
-ul {
+.link ul {
+  list-style: none;
+  display: flex;
+  color: black;
+}
+
+.sm-logo ul {
   list-style: none;
   display: flex;
   color: black;
@@ -72,13 +78,28 @@ li {
   cursor: pointer;
 }
 
-.menu-links {
-  /* display: none; */
+.menu-links ul{
+  list-style: none;
   display: flex;
   flex-direction: column;
 }
 
+.menu-links {
+  /* display: none; */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  position: absolute;
+  /* top: 100%; */
+  overflow: hidden;
+}
 
+#close .menu-links {
+  display: none;
+}
+
+#open .menu-links {
+  display: flex;
+}
 
 /* #open .links {
   display: flex ;
@@ -110,9 +131,9 @@ li {
     font-family: 'Teko-SemiBold',sans-serif;
   }
 
-  #close .links a {
+  /* #close .links a {
     display: none;
-  }
+  } */
 
   .logo {
     display: none;
@@ -137,12 +158,14 @@ li {
     display: none;
   }
 
-  /* #open {
-    height: 100px;
-  }
-
-  #open .links {
-    display: flex;
-    flex-direction: row;
+  /* #close {
+    display: none;
   } */
+
+  /* #open {
+    display: flex;
+    height: 100px;
+  } */
+
+ 
 }
