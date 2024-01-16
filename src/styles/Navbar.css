@@ -34,6 +34,12 @@ li {
   gap: 2rem;
 }
 
+.navbar a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
 .navbar a {
   color: black;
   text-decoration: none;
@@ -66,21 +72,25 @@ li {
   cursor: pointer;
 }
 
-#open {
-  height: 100vh;
+.menu-links {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
 }
 
-#open .links {
+
+
+/* #open .links {
   display: flex ;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 100px;
-}
-
+} */
+/* 
 #open a {
   width: 100%;
   text-align: center;
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .navbar a {
@@ -127,12 +137,12 @@ li {
     display: none;
   }
 
-  #open {
+  /* #open {
     height: 100px;
   }
 
   #open .links {
     display: flex;
     flex-direction: row;
-  }
+  } */
 }

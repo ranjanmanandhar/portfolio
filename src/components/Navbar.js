@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-scroll";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
+import MenuLinks from "./MenuLinks";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -23,64 +24,42 @@ function Navbar() {
   window.addEventListener("scroll", handleScroll);
 
   return (
-    <div
-      className={navBar ? "navbar active" : "navbar"}
-      id={expandNavbar ? "open" : "close"}
-    >
-      <div className="toggleButton">
-        <div className="sm-logo">
+    <>
+      <div
+        className={navBar ? "navbar active" : "navbar"}
+        id={expandNavbar ? "open" : "close"}
+      >
+        <div className="toggleButton">
+          <div className="sm-logo">
+            <ul>
+              <li>
+                <Link to="/" smooth={true} offset={-100} duration={500}>
+                  RM
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <button onClick={() => setExpandNavbar((prev) => !prev)}>
+            <ReorderIcon />
+          </button>
+        </div>
+        <div className="logo">
           <ul>
             <li>
               <Link to="/" smooth={true} offset={-100} duration={500}>
-                RM
+                Ranjan Manandhar
               </Link>
             </li>
           </ul>
         </div>
-        <button onClick={() => setExpandNavbar((prev) => !prev)}>
-          <ReorderIcon />
-        </button>
+        <div className="links">
+          <MenuLinks />
+        </div>
       </div>
-      <div className="logo">
-        <ul>
-          <li>
-            <Link to="/" smooth={true} offset={-100} duration={500}>
-              Ranjan Manandhar
-            </Link>
-          </li>
-        </ul>
+      <div className="menu-links">
+        <MenuLinks />
       </div>
-      <div className="links">
-        <ul>
-          <li>
-            <Link to="/" smooth={true} offset={-100} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="experiences" smooth={true} offset={40} duration={500}>
-              Experiences
-            </Link>
-          </li>
-          <li>
-            <Link to="project" smooth={true} offset={40} duration={500}>
-              Project
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} offset={40} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-        {/* <Link to="/" smooth={true} offset={40} duration={500}>
-          Home
-        </Link>
-
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link> */}
-      </div>
-    </div>
+    </>
   );
 }
 
