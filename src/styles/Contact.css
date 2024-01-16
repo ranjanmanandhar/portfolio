@@ -20,3 +20,17 @@
     width: 500px;
   }
 
+  .contact .info-container:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contact .upper-container {
+        width: 250px;
+        flex-direction: column;
+      }
+  }
+
