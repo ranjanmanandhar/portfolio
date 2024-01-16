@@ -1,19 +1,17 @@
-import React from 'react'
-import '../styles/Footer.css'; 
-import { Facebook, GitHub, Instagram, LinkedIn } from '@mui/icons-material'
+import React from "react";
+import "../styles/Footer.css";
+import MenuLinks from "./MenuLinks";
+import { Facebook, GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 
 function Footer() {
   return (
-    <div className='footer'> 
-        <div className='socialMedia'>
-            <Instagram />
-            <Facebook />
-            <GitHub />
-            <LinkedIn />
-        </div>
-        <p>&copy; 2023 Ranjan Manandhar</p>
+    <div className="footer">
+      <div className="links">
+        <MenuLinks />
+      </div>
+      <p>Copyright &copy; 2024 Ranjan Manandhar. All Rights Reserved.</p>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
