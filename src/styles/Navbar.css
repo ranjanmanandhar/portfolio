@@ -15,7 +15,7 @@
   top: 0;
 }
 
-.link ul {
+.links ul {
   list-style: none;
   display: flex;
   color: black;
@@ -34,6 +34,10 @@ li {
 .logo {
   font-family: 'Teko-SemiBold',sans-serif;
   font-size: 2rem;
+}
+
+.logo ul {
+  list-style: none;
 }
 
 .links {
@@ -85,11 +89,7 @@ li {
 }
 
 .menu-links {
-  /* display: none; */
-  /* display: flex; */
-  /* justify-content: space-evenly; */
   position: absolute;
-  /* top: 100%; */
   overflow: hidden;
 }
 
@@ -131,10 +131,6 @@ li {
     font-family: 'Teko-SemiBold',sans-serif;
   }
 
-  /* #close .links a {
-    display: none;
-  } */
-
   .logo {
     display: none;
   }
@@ -158,14 +154,4 @@ li {
     display: none;
   }
 
-  /* #close {
-    display: none;
-  } */
-
-  /* #open {
-    display: flex;
-    height: 100px;
-  } */
-
- 
 }
