@@ -1,5 +1,4 @@
 import React from "react";
-import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import "../styles/Home.css";
 import Contact from "./Contact";
 import Profile from "./Profile";
