@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Contact.css";
-import { Email, LinkedIn } from "@mui/icons-material";
+import { ReactSocialMediaIcons } from "react-social-media-icons";
 
 function Contact() {
   return (
@@ -9,11 +9,20 @@ function Contact() {
       <h1>Contact Me</h1>
       <div className="upper-container">
         <div className="info-container">
-          <Email />
+          <ReactSocialMediaIcons
+            icon="mail"
+            url="https://some-website.com/my-social-media-url"
+            size="30"
+          />
           <p>ranjan.mndr@gmail.com</p>
         </div>
         <div className="info-container">
-          <LinkedIn />
+          <ReactSocialMediaIcons
+            borderColor="#FFFFFF"
+            icon="linkedin"
+            url="https://some-website.com/my-social-media-url"
+            size="30"
+          />
           <p>Ranjan Manandhar</p>
         </div>
       </div>

@@ -24,15 +24,16 @@
 }
 
 .profile p {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin: auto 0;
 }
 
 .profile h1 {
-    margin: auto 0;
+    margin: 5px;
 }
 
 .profile .btn-contaier {
     display: flex;
-    margin: 1em;
+    margin: 1em 0;
+    justify-content: space-evenly;
 }
