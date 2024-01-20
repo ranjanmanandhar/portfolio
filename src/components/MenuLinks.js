@@ -6,7 +6,7 @@ function MenuLinks() {
     <>
       <ul>
         <li>
-          <Link to="/" smooth={true} offset={-100} duration={500}>
+          <Link to="profile" smooth={true} offset={-100} duration={500}>
             About
           </Link>
         </li>

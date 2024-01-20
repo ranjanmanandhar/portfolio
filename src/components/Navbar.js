@@ -31,7 +31,7 @@ function Navbar() {
             <ul>
               <li>
                 <Link to="/" smooth={true} offset={-100} duration={500}>
-                  RM
+                  Ranjan
                 </Link>
               </li>
             </ul>
