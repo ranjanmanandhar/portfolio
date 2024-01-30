@@ -1,0 +1,30 @@
+.about-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.about-pic {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    overflow: hidden;
+    /* border-radius: 95%; */
+}
+
+.about p {
+    margin: 40px 0px 0px 0px;
+}
+
+.about h1 {
+    margin-bottom: 40px;
+}
+
+.about-pic {
+    flex: 2;
+}
+
+.about-text {
+    flex: 3;
+}

@@ -11,7 +11,7 @@ function MenuLinks() {
           </Link>
         </li>
         <li>
-          <Link to="experiences" smooth={true} offset={40} duration={500}>
+          <Link to="about" smooth={true} offset={40} duration={500}>
             Experiences
           </Link>
         </li>
