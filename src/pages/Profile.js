@@ -7,11 +7,13 @@ import { ReactSocialMediaIcons } from "react-social-media-icons";
 function Profile() {
   return (
     <div className="profile" id="profile">
-      <div className="profile-pic">
-        <img src={myImage} />
+      <div className="profile-bg">
+        <div className="profile-pic">
+          <img src={myImage} />
+        </div>
       </div>
-      <div className="profile-text">
-        <div>
+      <div className="profile-div">
+        <div className="profile-text">
           <p>Hello I'm</p>
           <h1>Ranjan Manandhar</h1>
           <p>Full Stack Developer</p>

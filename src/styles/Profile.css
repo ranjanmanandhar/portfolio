@@ -1,21 +1,30 @@
 .profile {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 5rem;
     height: 80vh;
-    flex-direction: space-around;
+    flex-direction: row-reverse;
+    padding: 0 0 10em 0;
+    background-color: #efeaea ;
 }
 
 .profile-pic {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-    overflow: hidden;
-    border-radius: 50%;
+    height: 27em;
+    width: 23em;
+    position: absolute;
+    margin-left: -6em;
+    margin-top: 1.7em;
 }
 
-.profile-text {
+.profile-bg {
+    position: relative;
+    background: #353535;
+    margin-top: 4em;
+    width: 40%;
+    height: 90%;
+}
+.profile-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,6 +43,29 @@
 
 .profile .btn-contaier {
     display: flex;
-    margin: 1em 0;
+    /* margin: 1em 0; */
     justify-content: space-evenly;
+    margin: 1em;
+}
+
+.profile-text {
+    display: inline-block;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+}
+
+.profile-text h1{
+    overflow: hidden;
+    animation:
+        typing 3.5s steps(40, end) infinite alternate;
+    animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% { width: 0; }
+    100% { 
+        width: 102%; 
+    }
 }

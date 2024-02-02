@@ -4,6 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import "../styles/Experience.css";
 import { School, Work } from "@mui/icons-material";
 
 function Experience() {
