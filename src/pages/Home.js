@@ -3,6 +3,7 @@ import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import "../styles/Home.css";
 import Contact from "./Contact";
 import Profile from "./Profile";
+import Experience from "./Experience";
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function Home() {
     // </div>
     <>
       <Profile />
+      <Experience/>
       <Contact />
     </>
   );

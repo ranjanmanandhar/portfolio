@@ -8,7 +8,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: transparent;
+  background-color: #efeaea ;
+  /* background: transparent; */
   transition: background-color 0.3s ease;
   z-index: 1000; 
   position: sticky;
