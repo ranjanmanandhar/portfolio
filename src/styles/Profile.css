@@ -13,8 +13,8 @@
     height: 27em;
     width: 23em;
     position: absolute;
-    margin-left: -6em;
-    margin-top: 1.7em;
+    margin-left: -7em;
+    margin-top: 3.7em;
 }
 
 .profile-bg {
@@ -44,8 +44,8 @@
 .profile .btn-contaier {
     display: flex;
     /* margin: 1em 0; */
-    justify-content: space-evenly;
-    margin: 1em;
+    justify-content: space-between;
+    margin: 1em 0em;
 }
 
 .profile-text {
@@ -66,6 +66,6 @@
 @keyframes typing {
     0% { width: 0; }
     100% { 
-        width: 102%; 
+        width: 99%; 
     }
 }
