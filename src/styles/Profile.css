@@ -19,10 +19,10 @@
 
 .profile-bg {
     position: relative;
-    background: #353535;
+    background: #1D1C1C;
     margin-top: 4em;
-    width: 40%;
-    height: 90%;
+    width: 27em;
+    height: 27em;
 }
 .profile-div {
     display: flex;
@@ -30,29 +30,30 @@
     justify-content: space-around;
     align-self: center;
     text-align: center;
+    margin-top: 4em;
 }
 
 .profile p {
     font-size: 1.25rem;
     margin: auto 0;
+    font-weight: bold;
 }
 
 .profile h1 {
-    margin: 5px;
+margin: 0px;
 }
 
 .profile .btn-contaier {
     display: flex;
-    /* margin: 1em 0; */
     justify-content: space-between;
-    margin: 1em 0em;
+    margin: 1em 0em 1em 1em;
+    width: 16rem;
 }
 
 .profile-text {
     display: inline-block;
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    margin-left: 1em; /* Gives that scrolling effect as the typing happens */
 }
 
 .profile-text h1{
@@ -66,6 +67,6 @@
 @keyframes typing {
     0% { width: 0; }
     100% { 
-        width: 99%; 
+        width: 93%; 
     }
 }

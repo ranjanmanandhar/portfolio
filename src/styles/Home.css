@@ -1,7 +1,7 @@
 .home {
     width: 100%;
     align-items: center;
-    color: #333;
+    color: #000;
   }
   
   .about {
@@ -65,8 +65,8 @@
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
-  padding: 1rem;
-  width: 8.5rem;
+  padding: 0.5rem 1.2rem;
+  /* width: 8.5rem; */
   border-radius: 2rem;
 }
 
@@ -82,7 +82,7 @@
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #1D1C1C;
   color: white;
 }
 

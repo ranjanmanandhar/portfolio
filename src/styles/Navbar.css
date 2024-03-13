@@ -4,9 +4,10 @@
 }
 
 .navbar {
+  width: 80%;
   height: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #efeaea ;
   /* background: transparent; */
@@ -14,6 +15,7 @@
   z-index: 1000; 
   position: sticky;
   top: 0;
+  padding: 0em 8.4em;
 }
 
 .links ul {
