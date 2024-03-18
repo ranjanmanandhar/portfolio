@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.444508c7.css",
-    "main.js": "/portfolio/static/js/main.06e530be.js",
+    "main.css": "/portfolio/static/css/main.82d149bc.css",
+    "main.js": "/portfolio/static/js/main.23350e8f.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Teko-SemiBold.ttf": "/portfolio/static/media/Teko-SemiBold.a6326446d081c2093509.ttf",
     "static/media/Teko.ttf": "/portfolio/static/media/Teko.7f7d02a7f2625257e714.ttf",
@@ -10,15 +10,24 @@
     "static/media/profile.jpeg": "/portfolio/static/media/profile.2409178080a96fcec3ea.jpeg",
     "static/media/proj3.webp": "/portfolio/static/media/proj3.419d7d3eb4e124126660.webp",
     "static/media/proj2.jpg": "/portfolio/static/media/proj2.496e4d289eaa0f409ab8.jpg",
+    "static/media/docker-mark-blue.png": "/portfolio/static/media/docker-mark-blue.0f1d943e8a1505d609e5.png",
+    "static/media/rabbitmq-logo-png-transparent.png": "/portfolio/static/media/rabbitmq-logo-png-transparent.59c6970534ca124f0e3d.png",
+    "static/media/linux-22632.png": "/portfolio/static/media/linux-22632.676f1186af05163a6e74.png",
+    "static/media/GraphQL Logo (Rhodamine).png": "/portfolio/static/media/GraphQL Logo (Rhodamine).1fa2504a8c79522c364b.png",
     "static/media/proj1.jpg": "/portfolio/static/media/proj1.3fb0bdc7583872ea12b3.jpg",
+    "static/media/jquery-logo.png": "/portfolio/static/media/jquery-logo.0ce0c046113a3f4a73bc.png",
     "static/media/proj4.webp": "/portfolio/static/media/proj4.21aa3100d2e1859f6029.webp",
+    "static/media/MongoDB_ForestGreen.png": "/portfolio/static/media/MongoDB_ForestGreen.c15fbad9c08cc9f64d10.png",
+    "static/media/rest-api.png": "/portfolio/static/media/rest-api.5384c264b5173ba5eb9b.png",
+    "static/media/new-php-logo.png": "/portfolio/static/media/new-php-logo.0a564540c19c7189202e.png",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
-    "main.444508c7.css.map": "/portfolio/static/css/main.444508c7.css.map",
-    "main.06e530be.js.map": "/portfolio/static/js/main.06e530be.js.map",
+    "main.82d149bc.css.map": "/portfolio/static/css/main.82d149bc.css.map",
+    "main.23350e8f.js.map": "/portfolio/static/js/main.23350e8f.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.444508c7.css",
-    "static/js/main.06e530be.js"
+    "static/css/main.82d149bc.css",
+    "static/js/main.23350e8f.js"
   ]
 }
