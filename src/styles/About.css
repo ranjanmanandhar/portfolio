@@ -39,7 +39,6 @@
 }
 
 .about-me{
-    margin-bottom: 20em;
     position: absolute;
     margin: 0;
     left: 9em;
@@ -69,4 +68,41 @@
 #small-img img{
     width: 2rem;
     height: 2rem;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+    .about{
+    background-color: none;
+        padding: 0em;
+    }
+    .about-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+	.about-me{
+        position: static;
+        width: auto;
+        padding: 6em 3em 6em 3em;
+    }
+
+    .about-me p{
+        margin: 0em;    
+    }
+
+    .about-technical-skills{
+        padding:  2em 3em 4em 3em;
+        width: auto;
+    }
+
+    .technical-skills{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
 }

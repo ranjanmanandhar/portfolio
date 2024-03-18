@@ -13,7 +13,6 @@ function Home() {
       <About />
       <MyWork/>
       <Experience/>
-      {/* <Contact /> */}
     </div>
   );
 }

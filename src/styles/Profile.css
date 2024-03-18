@@ -74,3 +74,35 @@ margin: 0px;
         width: 93%; 
     }
 }
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	.profile{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    .profile-bg{
+        background-color: unset;
+        width: auto;
+        height: unset;
+    }
+
+    .profile-pic{
+        position: static;
+        margin-left: 0em;
+        width: auto;
+    }
+
+    .profile-pic img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

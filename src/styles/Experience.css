@@ -11,3 +11,26 @@
     padding: 0.5em 0.4em;
     color: white;
 }
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	.experience{
+        position: static;
+        padding: 0em 3em;
+        width: auto;
+    }
+
+    .experience h1{
+        margin-top: 0em;
+        text-align: center;
+    }
+
+    .vertical-timeline{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
