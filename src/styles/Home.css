@@ -6,7 +6,7 @@
   
   .about {
     width: 100%;
-    padding: 2em 0em;
+    padding: 2rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,23 +17,23 @@
   }
   
   .about h2 {
-    font-size: 5em;
+    font-size: 5rem;
     color: #e9d35b;
-    height: 3.125em;
+    height: 3.125rem;
   }
   
   .about .prompt {
     width: 40%;
-    font-size: 1.875em;
+    font-size: 1.875rem;
   }
   .prompt svg {
-    font-size: 3.75em;
-    margin: 0.313em;
+    font-size: 3.75rem;
+    margin: 0.313rem;
     color: rgb(0, 0, 0);
   }
   
   .skills {
-    font-size: 2.188em;
+    font-size: 2.188rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@
   }
   
   .list span {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
 /* BUTTONS */
@@ -104,7 +104,7 @@
   
   @media only screen and (max-width: 600px) {
     .about h2 {
-      font-size: 2.5em;
+      font-size: 2.5rem;
     }
   
     .about .prompt {

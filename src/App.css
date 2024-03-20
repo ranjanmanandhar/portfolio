@@ -16,6 +16,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Teko-SemiBold',sans-serif;
+  font-size: 1rem;
 }
 
 html {
@@ -30,10 +31,10 @@ a, .btn {
 .upper-container {
   display: flex;
   /* justify-content: center; */
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  margin: 2rem auto;
+  margin-block: 2rem;
   padding: 0.5rem;
   justify-content: space-around;
   

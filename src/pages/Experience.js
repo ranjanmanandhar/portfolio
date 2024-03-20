@@ -10,8 +10,8 @@ import Contact from "./Contact";
 
 function Experience() {
   return (
-    <>
     <div className="experience" id="experience">
+      <div className="experience-container">
       <h1>My Experience</h1>
       <VerticalTimeline layout="1-column-right">
       <VerticalTimelineElement
@@ -23,8 +23,8 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Software Engineer - Teksewa Services
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
             Kathmandu, Nepal
+          <h4 className="vertical-timeline-element-subtitle">
           </h4>
           <p>Developed and Maintained infrastructure for US-based telecommunications.</p>
         </VerticalTimelineElement>
@@ -69,9 +69,8 @@ function Experience() {
           <p> High School </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      </div>
     </div>
-    <Contact></Contact>
-    </>
   );
 }
 

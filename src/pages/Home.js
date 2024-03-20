@@ -13,6 +13,7 @@ function Home() {
       <About />
       <MyWork/>
       <Experience/>
+      <Contact></Contact>
     </div>
   );
 }
