@@ -17,6 +17,7 @@ body {
   margin: 0;
   font-family: 'Teko-SemiBold',sans-serif;
   font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 html {

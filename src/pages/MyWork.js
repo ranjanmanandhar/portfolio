@@ -11,9 +11,30 @@ function MyWork() {
             <div className="mywork">
                 <h1>My Works</h1>
                 <div className="myprojects">
-                    <div><img src={projectOne} alt="project-one-image"></img></div>
-                    <div><img src={projectTwo} alt="project-two-image"></img></div>
-                    <div><img src={projectThree} alt="project-three-image"></img></div>
+                    <div className="myproject-work">
+                        <img src={projectOne} alt="project-one-image"></img>
+                        <div className="card">
+                            <p>
+                                Ranjan Manandhar is a bad guy... I don't like him any more
+                            </p>
+                        </div>
+                    </div>
+                    <div className="myproject-work">
+                        <img src={projectTwo} alt="project-two-image"></img>
+                        <div className="card">
+                            <p>
+                                Ranjan Manandhar is a bad guy... I don't like him any more
+                            </p>
+                        </div>
+                    </div>
+                    <div className="myproject-work">
+                        <img src={projectThree} alt="project-three-image"></img>
+                        <div className="card">
+                            <p>
+                                Ranjan Manandhar is a bad guy... I don't like him any more
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
