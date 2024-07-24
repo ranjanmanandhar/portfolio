@@ -15,7 +15,7 @@ function MyWork() {
                         <img src={projectOne} alt="project-one-image"></img>
                         <div className="card">
                             <p>
-                                Ranjan Manandhar is a bad guy... I don't like him any more
+                                
                             </p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ function MyWork() {
                         <img src={projectTwo} alt="project-two-image"></img>
                         <div className="card">
                             <p>
-                                Ranjan Manandhar is a bad guy... I don't like him any more
+                               
                             </p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function MyWork() {
                         <img src={projectThree} alt="project-three-image"></img>
                         <div className="card">
                             <p>
-                                Ranjan Manandhar is a bad guy... I don't like him any more
+                               
                             </p>
                         </div>
                     </div>
