@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.45ab9cfd.css",
-    "main.js": "/portfolio/static/js/main.46b91c2c.js",
+    "main.js": "/portfolio/static/js/main.af6f064f.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Teko-SemiBold.ttf": "/portfolio/static/media/Teko-SemiBold.a6326446d081c2093509.ttf",
     "static/media/Teko.ttf": "/portfolio/static/media/Teko.7f7d02a7f2625257e714.ttf",
@@ -24,11 +24,11 @@
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.45ab9cfd.css.map": "/portfolio/static/css/main.45ab9cfd.css.map",
-    "main.46b91c2c.js.map": "/portfolio/static/js/main.46b91c2c.js.map",
+    "main.af6f064f.js.map": "/portfolio/static/js/main.af6f064f.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45ab9cfd.css",
-    "static/js/main.46b91c2c.js"
+    "static/js/main.af6f064f.js"
   ]
 }
